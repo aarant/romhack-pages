@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  color: #fff;
+  text-align: center;
+  background-color: #089c6b;
+  background-image: linear-gradient(180deg, #101831, #089c6b);
+}
+
+// hide table borders
+table, th, td {
+  border: none !important;
+}
