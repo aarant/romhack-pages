@@ -46,7 +46,7 @@ If you're interested in contributing to organic romhack development, please chec
 	- Normal, which forces SET style and only allows up to two items per battle from the Bag
 	- Hard, which is like Normal, but allows zero items from the Bag, and trainers' parties scale with your party's level
 - Reworked teams for every trainer in the game
-- Soft level caps, scaling with # of badges (diminishing EXP returns)
+- Soft level caps (for Normal & Hard), scaling with # of badges (diminishing EXP returns)
 - Built-in Nuzlocke mode (See intern in Prof. Birch's lab)
 - Built on [RHH's Pokemon expansion](https://github.com/rh-hideout/pokeemerald-expansion)
 - Updated battle mechanics
@@ -147,7 +147,9 @@ Q: Which Pokémon are included?
 
 A: All 386 species from Generations 1-3, any regional forms, evolutions, and Mega Evolutions of those 386, Riolu & Lucario, and... something secret.
 
-This is partly philosophical (I don't believe I can fit 1000+ Pokémon into Hoenn) and partly practical (every species, except Riolu & Lucario, appears to vanilla as its base species as it would exist in Generation 3).
+This means, for example, that Roserade, Alolan Ninetales, Sirfetch'd, Annihilape, etc are present, but not convergent species like Wugtrio.
+
+This is partly philosophical (I don't believe 1000+ Pokémon fit into Hoenn) and partly practical (every species, except Riolu & Lucario, appears to vanilla as its base species as it would exist in Generation 3).
 
 > Note: At this time, the Hisuian forms are in the game code, but not distributed anywhere (yet).
 
@@ -160,7 +162,7 @@ You can even load a vanilla Emerald save in Epsilon or vice versa, or trade with
 
 ---
 
-Q: Can I transfer to Pokémon Home?
+Q: Can I transfer to Pokémon Bank/Home?
 
 A: Yes... mostly! I've done my best to make sure that Pokémon caught in Epsilon are legitimate: any encounters that are not legitimate in vanilla are generated as if they were hatched from vanilla's POV, and there are other such tricks for things like Deoxys' met level and Faraway Island Mew's `gameLanguage`.
 
