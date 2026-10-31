@@ -189,7 +189,7 @@ TODO (they're a bit extensive)
 
 ## Discord
 
-TBD (Setting up channels hard)
+[https://discord.gg/BrDExuuFVY](https://discord.gg/BrDExuuFVY)
 
 ## Nerd Stuff
 
