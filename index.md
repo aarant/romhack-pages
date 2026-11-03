@@ -22,10 +22,10 @@ layout: default
 
 ## Disclaimer
 
-To the best of my knowledge, this romhack is **free of AI**, generative or otherwise, and is an entirely organic, human effort. I do not use LLMs for code, research, artwork, assets, or otherwise.
+To the best of my efforts and knowledge, this romhack is **free of AI**, generative or otherwise, and is an entirely organic, human effort. I do not use LLMs for code, research, artwork, assets, or otherwise.
 
 > Note: This romhack incorporates several branches maintained by others.
-> I've done my best to ensure those are organic as well.
+> I've done my best to ensure those are organic as well--let me know if I've erred!
 
 If you're interested in contributing to organic romhack development, please check out:
 
@@ -38,7 +38,6 @@ If you're interested in contributing to organic romhack development, please chec
 - [Following/walking Pokemon](https://bulbapedia.bulbagarden.net/wiki/Walking_Pok%C3%A9mon)
     - Originally coded by me
     - Supports hundreds of conditional messages, every type of Poké Ball, and [Shiny Leaves](https://bulbapedia.bulbagarden.net/wiki/Shiny_Leaf)
-
 - Day/night lighting, effects, and encounters
 - Gen 6-7 style icons everywhere (including the PC!), with shiny support
 - Three difficulty settings:
@@ -132,7 +131,7 @@ Most people may not notice or care about these, but they're here anyway:
 
 Q: So when can I play it?
 
-A: Soon. This November! Early November! I'm polishing things up as you read this, most likely.
+A: **November 14th**, though that won't be the end: I will be supporting Epsilon and providing updates well into 2027, if not indefinitely.
 
 ---
 
@@ -149,24 +148,57 @@ A: All 386 species from Generations 1-3, any regional forms, evolutions, and Meg
 
 This means, for example, that Roserade, Alolan Ninetales, Sirfetch'd, Annihilape, etc are present, but not convergent species like Wugtrio.
 
-This is partly philosophical (I don't believe 1000+ Pokémon fit into Hoenn) and partly practical (every species, except Riolu & Lucario, appears to vanilla as its base species as it would exist in Generation 3).
+This is partly philosophical (I don't believe 1000+ Pokémon fit nicely into Hoenn) and partly practical (every species, except Riolu & Lucario, appears to vanilla as its base species as it would exist in Generation 3).
 
 > Note: At this time, the Hisuian forms are in the game code, but not distributed anywhere (yet).
 
 ---
 
-Q: Can I transfer to Pal Park?
+Q: Can I transfer to Pal Park? / Can I use save-editing or other tools?
 
 A: Yes! Epsilon Emerald saves should be fully compatible with save-editing tools like PKHeX.
 You can even load a vanilla Emerald save in Epsilon or vice versa, or trade with vanilla.
+
+Generally, if a tool works with vanilla Emerald, it should work with Epsilon as well.
 
 ---
 
 Q: Can I transfer to Pokémon Bank/Home?
 
-A: Yes... mostly! I've done my best to make sure that Pokémon caught in Epsilon are legitimate: any encounters that are not legitimate in vanilla are generated as if they were hatched from vanilla's POV, and there are other such tricks for things like Deoxys' met level and Faraway Island Mew's `gameLanguage`.
+A: Yes... mostly! I've done my best to make sure that Pokémon caught in Epsilon are legitimate: any encounters that are not legitimate in vanilla are generated as if they were hatched from vanilla's POV, and there are other such tricks for things like Deoxys' met level and Faraway Island Mew's language.
 
 Before atttempting to transfer to Home, though, definitely check your Pokémon in PKHeX, and do whatever cleanup might be needed there.
+
+---
+
+Q: What are the shiny odds?
+
+A: They start at full odds: 1/8192. There are a few ways to get +1/8192, or an extra 'roll' for an encounter to be shiny:
+
+- The Shiny Charm, rewarded for completing the Hoenn Dex, gives +2/8192
+- Donating daily to the Ninetales statue postgame gives +1/8192
+- The Masuda method for breeding gives +5/8192
+
+Note that DevNav calculates its shiny odds differently, more inline with [ORAS](https://bulbapedia.bulbagarden.net/wiki/DexNav#Shiny_probability).
+
+---
+
+Q: How does Epsilon differ from vanilla Emerald and Omega Ruby / Alpha Sapphire?
+
+A: Being built on `pokeemerald-expansion` means I have the luxury of picking and choosing which modern battle mechanics I want:
+- The physical/special split is present
+- The Fairy type exists
+- Abilities and base stats generally are as they would be in Generation 9
+- Learnsets are composite: mostly they follow Gen 6, but with modern moves added
+- Hail replaces Snow, but still gives a +1 Defense boost to Ice-types
+
+Additionally, there are a few small changes gifting certain Pokémon a new ability or type--it's very minor and meant to make certain underused Pokémon more interesting.
+
+---
+
+Q: Will you provide documentation?
+
+A: Yes, though don't expect it to be pretty! I will export encounter tables, item locations, and boss information in a readable format. Evolution and learnset information can already be found in the in-game Pokédex.
 
 ---
 
@@ -185,7 +217,7 @@ A: **Maybe.** There is a roadmap after this release, broadly consisting of:
 
 ## Credits
 
-TODO (they're a bit extensive)
+[See here](./credits.md)
 
 ## Discord
 

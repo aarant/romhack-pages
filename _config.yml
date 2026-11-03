@@ -21,7 +21,7 @@
 title: Epsilon Emerald
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A romhack of Pokémon Emerald, a complete demake/remake of Omega Ruby/Alpha Sapphire, a love letter to Hoenn, and much, much more!
+  A romhack of Pokémon Emerald: a complete demake+ of Omega Ruby/Alpha Sapphire, a love letter to Hoenn, and much, much more!
 baseurl: ""
 url: "https://pokeepsilon.net"
 # twitter_username: jekyllrb
