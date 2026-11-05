@@ -14,7 +14,7 @@ I may release them for **noncommercial use** sometime in the future, subject to 
 
 ## Graphics
 
-My primary artist for **everything not listed below** is [shikashipx](https://shikashipx.itch.io/), who's been a tremendous, tireless help over the years. Check out his stuff and support him if you're able!
+My primary artist for **everything not listed below** is [shikashipx](https://shikashipx.itch.io/), who's been a tremendous, tireless help over the years. Check out his stuff and support him if you're able: [Twitter](https://twitter.com/shikashipx_)
 
 - Mega Ampharos - Rafael Sanna
 - Mega Sceptile - Rafael Sanna
@@ -57,7 +57,12 @@ My primary artist for **everything not listed below** is [shikashipx](https://sh
 ## Features
 
 - BW-style Pokédex main page - [jaizu](https://github.com/Jaizu)
-- Enhanced Option menu - [TheXaman](https://github.com/TheXaman)
+- Enhanced Option menu
+    - [TheXaman](https://github.com/TheXaman)
+    - DizzyEgg
+    - Lunos
+    - AsparagusEduardo
+    - ella_trifle
 - Bag sorting - [ghoulslash](https://github.com/ghoulslash)
 - Pokédex Plus HGSS - [TheXaman](https://github.com/TheXaman)
 - DexNav - [ghoulslash](https://github.com/ghoulslash)
@@ -72,6 +77,7 @@ My primary artist for **everything not listed below** is [shikashipx](https://sh
 - Level-up moves on evolution - [LOuroboros](https://github.com/louroboros)
 - Repeated medicine field use - [ghoulslash](https://github.com/ghoulslash)
 - COLOR_MAP constants - ShinyDragonHunter
+- Original Soaring code - camthesaxman
 
 ## Miscellaneous
 
