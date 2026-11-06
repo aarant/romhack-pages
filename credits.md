@@ -16,8 +16,8 @@ I may release them for **noncommercial use** sometime in the future, subject to 
 
 My primary artist for **everything not listed below** is [shikashipx](https://shikashipx.itch.io/), who's been a tremendous, tireless help over the years. Check out his stuff and support him if you're able: [Twitter](https://twitter.com/shikashipx_)
 
-- Mega Ampharos - Rafael Sanna
-- Mega Sceptile - Rafael Sanna
+- Mega Ampharos front sprite - Rafael Sanna
+- Mega Sceptile front sprite - Rafael Sanna
 - Hoenn vanilla tileset errors - [Chris Piche](https://www.youtube.com/watch?v=8M_QOUqbxgY)
 - Castform form OWs - [larryturbo](https://www.deviantart.com/larryturbo)
 - Following pokémon footprint types - Sonikku-DatH
@@ -26,6 +26,7 @@ My primary artist for **everything not listed below** is [shikashipx](https://sh
 - Mega Camerupt - [yuzahunter](https://www.deviantart.com/yuzahunter)
 - Mega Mawile - [yuzahunter](https://www.deviantart.com/yuzahunter)
 - Alolan OWs - [larryturbo](https://www.deviantart.com/larryturbo)
+- Galarian OWs - SageDeoxys
 - Roxanne - [yuzahunter](https://www.deviantart.com/yuzahunter)
 
 ## Music
