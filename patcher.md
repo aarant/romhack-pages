@@ -24,7 +24,7 @@ If you Google around though, you can easily find one, or dump your own Emerald c
 ## Instructions
 
 - Load your base Emerald ROM into the patcher and make sure it shows green.
-    The SHA-1 hash must be **exactly** `3ae088181bf583e55daf962a92bb46f4f1d07b7`. The patcher will tell you if it's correct or not.
+    The SHA-1 hash must be **exactly** `f3ae088181bf583e55daf962a92bb46f4f1d07b7`. The patcher will tell you if it's correct or not.
 - Select your version of Epsilon Emerald, if applicable, and click **Apply patch**.
 - You'll download a file named `pokeepsilon.gba`; this is your ROM!
 
