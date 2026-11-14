@@ -16,10 +16,6 @@ layout: default
 | ![](assets/images/pokeepsilon-9.png) | ![](assets/images/pokeepsilon-10.png) | ![](assets/images/pokeepsilon-12.png) |
 | ![](assets/images/buzznav.gif) | ![](assets/images/pokeepsilon-8.png) | ![](assets/images/romhack-18.png) |
 
-<p align="center"><img src="assets/images/under_construction.png" width=480></p>
-
-<p align="center">Under Construction</p>
-
 ## Disclaimer
 
 To the best of my efforts and knowledge, this romhack is **free of AI**, generative or otherwise, and is an entirely organic, human effort. I do not use LLMs for code, research, artwork, assets, or otherwise.
@@ -222,17 +218,3 @@ A: **Maybe.** There is a roadmap after this release, broadly consisting of:
 ## Discord
 
 [https://discord.gg/BrDExuuFVY](https://discord.gg/BrDExuuFVY)
-
-## Nerd Stuff
-
-I sign all binaries of Epsilon Emerald with my public PGP key, which you can import from GitHub:
-
-```bash
-curl -s https://github.com/aarant.gpg | gpg --import
-```
-
-You can then verify the ROM was built by me (with the signature either included or embedded in the BPS patch):
-
-```bash
-gpg --verify pokeepsilon.gba.sig
-```

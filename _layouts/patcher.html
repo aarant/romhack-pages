@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#089c6b">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link type="text/css" rel="stylesheet" href="./rom-patcher-js/style.css" media="all" />
+    {% include head-custom.html %}
+    <script type="text/javascript" src="./rom-patcher-js/RomPatcher.webapp.js"></script>
+
+    <script type="text/javascript">
+        window.addEventListener('load', function (evt) {
+            try {
+                RomPatcherWeb.initialize({
+                    language: 'en',
+                    requireValidation: true
+                }, {
+                    file: './assets/patches/pokeepsilon.bps',
+                    name: 'Epsilon Emerald v1.0.0 (en)',
+                    description: 'Pokémon Epsilon Emerald English Base',
+                    outputName: 'pokeepsilon',
+                });
+            } catch (err) {
+                var message = err.message;
+                if (/incompatible browser/i.test(message) || /variable RomPatcherWeb/i.test(message))
+                    message = 'Your browser is outdated and it is not compatible with this app.';
+
+                document.getElementById('rom-patcher-container').innerHTML = message;
+                document.getElementById('rom-patcher-container').style.color = 'red';
+            }
+        });
+    </script>
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ '/' | relative_url }}" class="btn">Home</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+    <div id="rom-patcher-container">
+        <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-rom">
+            <div class="text-right"><label for="rom-patcher-input-file-rom" data-localize="yes">ROM file:</label></div>
+            <div class="rom-patcher-container-input">
+                <input type="file" id="rom-patcher-input-file-rom" class="empty" disabled />
+            </div>
+        </div>
+        <div class="margin-bottom text-selectable text-mono text-muted" id="rom-patcher-rom-info">
+            <div class="rom-patcher-row">
+                <div class="text-right">CRC32:</div>
+                <div class="text-truncate"><span id="rom-patcher-span-crc32"></span></div>
+            </div>
+            <div class="rom-patcher-row">
+                <div class="text-right">SHA-1:</div>
+                <div class="text-truncate"><span id="rom-patcher-span-sha1"></span></div>
+            </div>
+            <div class="rom-patcher-row" id="rom-patcher-row-info-rom">
+                <div class="text-right">ROM:</div>
+                <div class="text-truncate"><span id="rom-patcher-span-rom-info"></span></div>
+            </div>
+        </div>
+
+        <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-patch">
+            <div class="text-right"><label for="rom-patcher-input-file-patch" data-localize="yes">Patch file:</label>
+            </div>
+            <div class="rom-patcher-container-input">
+                <select id="rom-patcher-select-patch"></select>
+            </div>
+        </div>
+        <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-patch-description">
+            <div class="text-right text-mono text-muted" data-localize="yes">Description:</div>
+            <div class="text-truncate" id="rom-patcher-patch-description"></div>
+        </div>
+        <div class="rom-patcher-row margin-bottom text-selectable text-mono text-muted"
+            id="rom-patcher-row-patch-requirements">
+            <div class="text-right text-mono" id="rom-patcher-patch-requirements-type">ROM requirements:</div>
+            <div class="text-truncate" id="rom-patcher-patch-requirements-value"></div>
+        </div>
+
+        <div class="text-center" id="rom-patcher-row-apply">
+            <div id="rom-patcher-row-error-message" class="margin-bottom"><span id="rom-patcher-error-message"></span>
+            </div>
+            <button id="rom-patcher-button-apply" data-localize="yes" disabled>Apply patch</button>
+        </div>
+    </div>
+
+    <div id="rom-patcher-powered" class="text-center">
+        <a href="https://github.com/marcrobledo/RomPatcher.js" target="_blank"><img
+                src="rom-patcher-js/assets/powered_by_rom_patcher_js.png" loading="lazy" />Powered by Rom Patcher JS</a>
+    </div>
+    </main>
+  </body>
+</html>

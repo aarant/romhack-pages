@@ -21,6 +21,7 @@ Makefile text eol=lf
 *.html text eol=lf
 *.js text eol=lf
 *.css text eol=lf
+*.sig text eol=lf
 
 *.png binary
 *.bin binary

@@ -292,7 +292,7 @@
 	padding: 10px 20px;
 	margin: 0 5px;
 
-	background-color: #2a9ca5;
+	background-color: #089c6b;
 	color: white;
 
 	transition: background-color .15s;
@@ -499,7 +499,7 @@
 }
 
 #rom-patcher-powered a {
-	color: #cce;
+	color: #089c6b;
 	padding: 4px 8px;
 	text-decoration: none;
 	opacity: .25;
