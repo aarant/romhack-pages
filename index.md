@@ -27,6 +27,10 @@ If you're interested in contributing to organic romhack development, please chec
 
 [https://github.com/friend-safari](https://github.com/friend-safari)
 
+## Docs
+
+[Items](./items.md) | [Encounters](./encounters.md) | [Move/Mon changes](https://docs.google.com/document/d/1xMMhLrBNf2X11aAbVOAPCpD5rZ4scWPLGabgiRGTu4Y/edit?usp=sharing) (Thanks to my friend Millie!)
+
 ## Features
 
 ### General
