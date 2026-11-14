@@ -46,6 +46,9 @@ You can also play on a **Nintendo 3DS**, either by injecting the ROM as a `.cia`
 
 And of course, you can play on original GBA hardware, if you can get the ROM onto a suitable cartridge: GBA, GBA SP, GB Micro, GameBoy Player, etc.
 
+> Note: If, when flashing to a flashcart, you receive an error to the effect of "The ROM file you have selected will not boot on actual hardware due to invalid boot logo data",
+> click "Continue without fixing"; the flasher may be unaware that the GBA ROM header is allowed to differ in 1 byte to enable debugging behavior (which I use to show a crash screen).
+
 ## For Nerds
 
 I sign all binaries of Epsilon Emerald with my public [PGP](https://www.gnupg.org/) key, which you can import from my GitHub:
