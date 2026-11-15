@@ -101,7 +101,11 @@ Yes, though don't expect it to be pretty! I will export encounter tables, item l
 - Releasing the soundtrack
 - Adding Sylveon
 
-I will **not** be adding the following:
+I **might** add the following:
+
+- Randomizer
+
+I will **not** add the following:
 
 - Battle/overworld speedup
 - Multiple save slots
