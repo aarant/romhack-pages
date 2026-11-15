@@ -116,7 +116,7 @@ This details, for the most part, the encounter tables for every map in the game.
 
 | Environment | Encounters | Notes |
 | ----------- | ---------- | ----- |
-| Land | <div hidden="until-found">sandshrew</div> ![sandshrew](assets/images/icons/sandshrew.png) ![spinda](assets/images/icons/spinda.png) ![slugma](assets/images/icons/slugma.png) ![rhyhorn](assets/images/icons/rhyhorn.png) ![skarmory](assets/images/icons/skarmory.png) | |
+| Land | ![sandshrew](assets/images/icons/sandshrew.png) ![spinda](assets/images/icons/spinda.png) ![slugma](assets/images/icons/slugma.png) ![rhyhorn](assets/images/icons/rhyhorn.png) ![skarmory](assets/images/icons/skarmory.png) | |
 | Hidden | ![mankey](assets/images/icons/mankey.png) ![tauros](assets/images/icons/tauros.png) ![scyther](assets/images/icons/scyther.png) | |
 
 ## Route 114
