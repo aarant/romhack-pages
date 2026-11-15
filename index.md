@@ -29,7 +29,7 @@ If you're interested in contributing to organic romhack development, please chec
 
 ## Docs
 
-[Items](./items.md) | [Encounters](./encounters.md) | [Move/Mon changes](https://docs.google.com/document/d/1xMMhLrBNf2X11aAbVOAPCpD5rZ4scWPLGabgiRGTu4Y/edit?usp=sharing) (Thanks to my friend Millie!)
+[Items](./items) | [Encounters](./encounters) | [Move/Mon changes](https://docs.google.com/document/d/1xMMhLrBNf2X11aAbVOAPCpD5rZ4scWPLGabgiRGTu4Y/edit?usp=sharing) (Thanks to my friend Millie!) | [FAQ](./FAQ)
 
 ## Features
 
@@ -126,94 +126,6 @@ Most people may not notice or care about these, but they're here anyway:
 - Devon Corp can also revive fossils not native to Hoenn
 - Many cosmetic improvements and tile errors fixed
 - Various easter eggs
-
-## FAQ
-
-Q: So when can I play it?
-
-A: **November 14th**, though that won't be the end: I will be supporting Epsilon and providing updates well into 2027, if not indefinitely.
-
----
-
-Q: So how can I play it?
-
-A: You'll need an [emulator](https://mgba.io/) and a copy of the base Pokémon Emerald ROM.
-You'll be able to use the patcher included on this site, or download a `.BPS` patch and patch it locally.
-
----
-
-Q: Which Pokémon are included?
-
-A: All 386 species from Generations 1-3, any regional forms, evolutions, and Mega Evolutions of those 386, Riolu & Lucario, and... something secret.
-
-This means, for example, that Roserade, Alolan Ninetales, Sirfetch'd, Annihilape, etc are present, but not convergent species like Wugtrio.
-
-This is partly philosophical (I don't believe 1000+ Pokémon fit nicely into Hoenn) and partly practical (every species, except Riolu & Lucario, appears to vanilla as its base species as it would exist in Generation 3).
-
-> Note: At this time, the Hisuian forms are in the game code, but not distributed anywhere (yet).
-
----
-
-Q: Can I transfer to Pal Park? / Can I use save-editing or other tools?
-
-A: Yes! Epsilon Emerald saves should be fully compatible with save-editing tools like PKHeX.
-You can even load a vanilla Emerald save in Epsilon or vice versa, or trade with vanilla.
-
-Generally, if a tool works with vanilla Emerald, it should work with Epsilon as well.
-
----
-
-Q: Can I transfer to Pokémon Bank/Home?
-
-A: Yes... mostly! I've done my best to make sure that Pokémon caught in Epsilon are legitimate: any encounters that are not legitimate in vanilla are generated as if they were hatched from vanilla's POV, and there are other such tricks for things like Deoxys' met level and Faraway Island Mew's language.
-
-Before atttempting to transfer to Home, though, definitely check your Pokémon in PKHeX, and do whatever cleanup might be needed there.
-
----
-
-Q: What are the shiny odds?
-
-A: They start at full odds: 1/8192. There are a few ways to get +1/8192, or an extra 'roll' for an encounter to be shiny:
-
-- The Shiny Charm, rewarded for completing the Hoenn Dex, gives +2/8192
-- Donating daily to the Ninetales statue postgame gives +1/8192
-- The Masuda method for breeding gives +5/8192
-
-Note that DevNav calculates its shiny odds differently, more inline with [ORAS](https://bulbapedia.bulbagarden.net/wiki/DexNav#Shiny_probability).
-
----
-
-Q: How does Epsilon differ from vanilla Emerald and Omega Ruby / Alpha Sapphire?
-
-A: Being built on `pokeemerald-expansion` means I have the luxury of picking and choosing which modern battle mechanics I want:
-- The physical/special split is present
-- The Fairy type exists
-- Abilities and base stats generally are as they would be in Generation 9
-- Learnsets are composite: mostly they follow Gen 6, but with modern moves added
-- Hail replaces Snow, but still gives a +1 Defense boost to Ice-types
-
-Additionally, there are a few small changes gifting certain Pokémon a new ability or type--it's very minor and meant to make certain underused Pokémon more interesting.
-
----
-
-Q: Will you provide documentation?
-
-A: Yes, though don't expect it to be pretty! I will export encounter tables, item locations, and boss information in a readable format. Evolution and learnset information can already be found in the in-game Pokédex.
-
----
-
-Q: Will you add X/Y/Z?
-
-A: **Maybe.** There is a roadmap after this release, broadly consisting of:
-
-- Fixing bugs relating to the release
-- Touchups relating to feedback from the release
-- Finishing the import of Gen 9 forms and Mega Evolutions
-- Upgrading the underlying version of pokemon-expansion
-- Adding Acessories from Gen 4 into the 1st stage of Contests
-- Adding a shopping channel to BuzzNav / TV
-- PSS (Player Search System) functionality: GTS, Wonder Trade, Record Mixing, via the Mobile Adapter
-- Preparation for Kanto and Johto
 
 ## Credits
 
