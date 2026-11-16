@@ -10,14 +10,14 @@ layout: default
 
 ### So when can I play it?
 
-**You can play it now!** That won't be the end though: I will be supporting Epsilon and providing updates well into 2027, if not indefinitely.
+**You can play it now!** But this is not the end: I'll be supporting and providing updates well into 2027.
 
 ---
 
 ### So how can I play it?
 
-You'll need an [emulator](https://mgba.io/) and a copy of the base Pokémon Emerald ROM.
-You'll be able to use the patcher included on this site, or download a `.BPS` patch and patch it locally.
+You'll need an [emulator](https://mgba.io/) (or other equivalent hardware) and a copy of the base Pokémon Emerald ROM.
+You can either use the patcher on this site or download a `.bps` file and patch it locally.
 
 ---
 
@@ -85,8 +85,7 @@ Yes, though don't expect it to be pretty! I will export encounter tables, item l
 
 **Maybe.** There is a roadmap after this release, broadly consisting of:
 
-- Fixing bugs relating to the release
-- Touchups relating to feedback from the release
+- Fixing bugs and feedback stemming from the release
 - Finishing the import of Gen 9 forms and Mega Evolutions
 - Upgrading the underlying version of pokemon-expansion
 - Adding Acessories from Gen 4 into the 1st stage of Contests
@@ -96,25 +95,25 @@ Yes, though don't expect it to be pretty! I will export encounter tables, item l
 - Adding skin tone customization for the player
 - Adding Regigigas, Regidrago, and Regieleki encounters
 - Integrating Poké Transporter GB
-- Nerfing difficult trainers in Easy Mode
+- Balance adjustments, especially for Easy difficulty
 - Adding an IV judge
-- Releasing the soundtrack
+- Uploading the soundtrack to YouTube
 - Adding Sylveon
 
-I **might** add the following:
+I **may** add the following:
 
-- Randomizer
+- A randomizer, for those who want to do roguelike runs
 
-I will **not** add the following:
+I won't be adding these:
 
-- Battle/overworld speedup
+- Significant battle/overworld speedup
 - Multiple save slots
 
 ---
 
 ### Can I transfer to Pal Park?
 
-Yes, but there may be some legality issues with the Pokémon.
+Yes, with a few caveats: we're still ironing out a few wrinkles with legitimacy.
 
 For certain pokemon, the met game could appear as any of the other Generation 3 games, like Ruby (Zangoose), Sapphire (Lunatone), FireRed (Unown caught in Altering Cave, postgame), Colosseum (Legendary Beasts caught in Trackless Forest), etc.
 
@@ -126,27 +125,28 @@ As for items/moves unrecognized by Gen 4, they'd either be dropped, or you'd nee
 
 ### How do I enable auto-run?
 
-Double-tap B!
+Just Double-tap B!
 
 ---
 
 ### I just encountered a trainer with a Shiny Pokémon! Is that intended?
 
-Yes. The rich boy/lady trainers have Shiny Pokémon.
+Yes: the rich boy/lady trainers have Shiny Pokémon. Perks of being wealthy, I guess.
 
 ---
 
 ### How do I obtain Mythical Pokémon?
 
-I will periodically be releasing distributions for these Pokémon in the form of Wonder Codes! These can be redeemed at any time.
+Periodically until Bank's closure, I'll be releasing distributions for these Pokémon in the form of Wonder Cards / Codes.
+These can be redeemed at any time.
 
-There are also plans for a postgame event for Jirachi (though that event will likely release after Pokémon Bank closes).
+There are also plans for a free DLC of sorts for Jirachi, though that will likely not land until after Bank closes.
 
 ---
 
 ### How do I unlock Mystery Gift?
 
-Three ways! You can either:
+Three ways! You can:
 
 - Enter "LINK TOGETHER WITH ALL" in the questionnaire at any Mart
 - Import a Mystery Gift Wonder Code via mGBA savestate
@@ -165,7 +165,7 @@ You can either:
 
 ### How do I view my Pokémon's EVs?
 
-You can view them in the PokéNav after obtaining the Effort Ribbon.
+You can view them in the PokéNav's Condition screen after obtaining the Effort Ribbon.
 
 ---
 
@@ -179,7 +179,7 @@ For IVs, you can use Hyper Train your level 100 Pokémon with an NPC at the Batt
 
 ### What glitches are kept from the base game?
 
-Just the fun ones! (ones that can't be triggered accideentally and don't inconvenience the player)
+Just the fun ones! (ones that can't be triggered accidentally and don't cause inconvenience)
 
 Some examples are pomeg corruption, mail glitch, battle pike poison knockout glitch, dive gltich, etc.
 
@@ -187,28 +187,26 @@ Some examples are pomeg corruption, mail glitch, battle pike poison knockout gli
 
 ### Is HM02 (Fly) fully replaced by Lati@s Soaring?
 
-Nope! You can still Fly normally. You can even do it from the PokéNav map, and fly to routes.
+No, you can still Fly normally, and even issue a Fly command from the PokéNav and fly to routes.
 
 ---
 
 ### Which trainer teams have been overhauled? In what ways?
 
-All of them :3
+Every single trainer in the game was overhauled. Often I based the teams around what I thought would be fun, or funny, based on how GameFreak sometimes did.
 
-A lot of times I base it around what I think would be fun, or funny, like I try and inject puns into the teams similar to how Game Freak sometimes did it
-
-For bosses, giving them additional Pokémon sometimes came out of the manga, or an aspect of their personality, or something I thought would be a good parallel (Maxie and Archie having Cradily and Armaldo, respectively).
+For bosses, team and set selection often came out of the manga, aspects of their personality, etc.
 
 ---
 
 ### Can you rematch Brendan/May?
 
-Yes.
+Yes, on Route 103 in the postgame.
 
 ---
 
 ### Is Steven or Wallace the champion?
 
-Wallace is the champion the first time you get to him, but you can still fight Steven at some point
+Wallace is the champion at first, but don't worry! You'll still battle Steven at some point.
 
 ---

@@ -18,7 +18,8 @@ layout: default
 
 ## Disclaimer
 
-To the best of my efforts and knowledge, this romhack is **free of AI**, generative or otherwise, and is an entirely organic, human effort. I do not use LLMs for code, research, artwork, assets, or otherwise.
+To the best of my efforts and knowledge, this romhack is **free of AI**, generative or otherwise, and is an entirely organic, human effort.
+I do not use LLMs for code, research, artwork, assets, or otherwise.
 
 > Note: This romhack incorporates several branches maintained by others.
 > I've done my best to ensure those are organic as well--let me know if I've erred!

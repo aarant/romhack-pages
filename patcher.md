@@ -51,7 +51,7 @@ And of course, you can play on original GBA hardware, if you can get the ROM ont
 
 ## For Nerds
 
-You can download the latest patch file [here](assets/patches/pokeepsilon.bps) and patch your base Emerald ROM locally using tools such as [Flips](https://www.smwcentral.net/?p=section&a=details&id=42149).
+You can also download the latest patch file [here](assets/patches/pokeepsilon.bps) and patch your base Emerald ROM locally using tools like [Flips](https://www.smwcentral.net/?p=section&a=details&id=42149).
 
 I sign all binaries of Epsilon Emerald with my public [PGP](https://www.gnupg.org/) key, which you can import from my GitHub:
 
