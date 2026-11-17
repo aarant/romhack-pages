@@ -34,6 +34,8 @@ If you're interested in contributing to organic romhack development, please chec
 
 ## Features
 
+[Changelog](./CHANGELOG.md)
+
 ### General
 
 - [Following/walking Pokemon](https://bulbapedia.bulbagarden.net/wiki/Walking_Pok%C3%A9mon)
