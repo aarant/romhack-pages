@@ -50,8 +50,8 @@ Subject to change!
 | ![](assets/images/items/magmarizer.png) Magmarizer             |  | Frontier Exchange |  |
 | ![](assets/images/items/dubious_disc.png) Dubious Disc           |  | Frontier Exchange |  |
 | ![](assets/images/items/reaper_cloth.png) Reaper Cloth           | Mossdeep City  (1) | Shuppet, Frontier Exchange |  |
-| ![](assets/images/items/ability_capsule.png) Ability Capsule        |  | Ritzy Retail Remedies  (Mauville), Trainer Hill  (Expert mode) | Frontier Exchange, Battle Palace, Wally (Rematch) |
-| ![](assets/images/items/ability_patch.png) Ability Patch          |  | Ritzy Retail Remedies  (Mauville) | Frontier Exchange, Battle Arena |
+| ![](assets/images/items/ability_capsule.png) Ability Capsule        | Mauville (1) | Ritzy Retail Remedies  (Mauville), Trainer Hill  (Expert mode) | Frontier Exchange, Battle Palace, Wally (Rematch) |
+| ![](assets/images/items/ability_patch.png) Ability Patch          | Mauville (1) | Ritzy Retail Remedies  (Mauville) | Frontier Exchange, Battle Arena |
 | ![](assets/images/items/hp_up.png) Hp Up                  |  | Slateport Market, Lilycove Dept. Store | Battle Frontier, Ninetails Noodles |
 | ![](assets/images/items/protein.png) Protein                |  | Slateport Market, Lilycove Dept. Store | Battle Frontier, Ninetails Noodles |
 | ![](assets/images/items/iron.png) Iron                   |  | Slateport Market, Lilycove Dept. Store | Battle Frontier, Ninetails Noodles |
@@ -74,7 +74,7 @@ Subject to change!
 | ![](assets/images/items/thunder_stone.png) Thunder Stone          | New Mauville  (1) | Route 124  (Shard Hunter), Secret Pals Stones, Inverse Battle Stop, Mauville Hills  (Thursday) | Frontier Exchange |
 | ![](assets/images/items/water_stone.png) Water Stone            | Abandoned Ship  (1) | Route 124  (Shard Hunter), Secret Pals Stones, Inverse Battle Stop, Mauville Hills  (Wednesday) | Frontier Exchange |
 | ![](assets/images/items/leaf_stone.png) Leaf Stone             | Route 119  (1) | Route 124  (Shard Hunter), Secret Pals Stones, Inverse Battle Stop, Mauville Hills  (Saturday) | Frontier Exchange |
-| ![](assets/images/items/dawn_stone.png) Dawn Stone             | Verdanturf  (1), Wally  (1) | Beautifly, Secret Pals Stones, Inverse Battle Stop | Frontier Exchange |
+| ![](assets/images/items/dawn_stone.png) Dawn Stone             | Verdanturf  (1, Wally's uncle after defeating Flannery), Wally  (1) | Beautifly, Secret Pals Stones, Inverse Battle Stop | Frontier Exchange |
 | ![](assets/images/items/dusk_stone.png) Dusk Stone             |  | Duskull, Secret Pals Stones, Inverse Battle Stop | Frontier Exchange |
 | ![](assets/images/items/shiny_stone.png) Shiny Stone            | Lanette's house  (1), Route 121  (1) | Mareep, Secret Pals Stones, Inverse Battle Stop | Frontier Exchange |
 | ![](assets/images/items/ice_stone.png) Ice Stone              | Ice Oasis  (1) | Secret Pals Stones, Inverse Battle Stop, Mauville Hills  (Friday) | Frontier Exchange |
@@ -314,27 +314,27 @@ Subject to change!
 | ![](assets/images/items/rowap_berry.png) Rowap Berry            |  | Trackless Forest  (Suicune) |  |
 | ![](assets/images/items/kee_berry.png) Kee Berry              |  | Southern Island, Secret Pals Berries  (1/35), Berry Mutations |  |
 | ![](assets/images/items/maranga_berry.png) Maranga Berry          |  | Southern Island, Secret Pals Berries  (1/35), Berry Mutations |  |
-| ![](assets/images/items/mint.png) Lonely Mint            |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Adamant Mint           |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Naughty Mint           |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Brave Mint             |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Bold Mint              |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Impish Mint            |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Lax Mint               |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Relaxed Mint           |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Modest Mint            |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Mild Mint              |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Rash Mint              |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Quiet Mint             |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Calm Mint              |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Gentle Mint            |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Careful Mint           |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Sassy Mint             |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Timid Mint             |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Hasty Mint             |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Jolly Mint             |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Naive Mint             |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
-| ![](assets/images/items/mint.png) Serious Mint           |  | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Lonely Mint            | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Adamant Mint           | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Naughty Mint           | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Brave Mint             | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Bold Mint              | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Impish Mint            | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Lax Mint               | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Relaxed Mint           | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Modest Mint            | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Mild Mint              | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Rash Mint              | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Quiet Mint             | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Calm Mint              | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Gentle Mint            | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Careful Mint           | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Sassy Mint             | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Timid Mint             | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Hasty Mint             | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Jolly Mint             | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Naive Mint             | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
+| ![](assets/images/items/mint.png) Serious Mint           | Mauville 1F | Trainer Hill  (Variety) | Battle Palace, Frontier Exchange, Ninetails Noodles |
 | ![](assets/images/items/toge_timer.png) Toge Timer             | Route 117 Daycare  (1) |  |  |
 | ![](assets/images/items/light_clay.png) Light Clay             |  | Baltoy, Claydol | Frontier Exchange |
 | ![](assets/images/items/icy_rock.png) Icy Rock               |  | Weather Institute |  |
