@@ -170,6 +170,7 @@ This details, for the most part, the encounter tables for every map in the game.
 | Land | ![wooper](assets/images/icons/wooper.png) ![quagsire](assets/images/icons/quagsire.png) ![zigzagoon](assets/images/icons/zigzagoon.png) ![oddish](assets/images/icons/oddish.png) ![linoone](assets/images/icons/linoone.png) ![yanma](assets/images/icons/yanma.png) ![tropius](assets/images/icons/tropius.png) ![kecleon](assets/images/icons/kecleon.png) | |
 | Water | ![tentacool](assets/images/icons/tentacool.png) ![wingull](assets/images/icons/wingull.png) ![pelipper](assets/images/icons/pelipper.png) | |
 | Fishing | ![magikarp](assets/images/icons/magikarp.png) ![tentacool](assets/images/icons/tentacool.png) ![carvanha](assets/images/icons/carvanha.png) | |
+| Other | ![feebas](assets/images/icons/feebas.png) | Any Fishing Rod: Under northernmost bridge (day), or around southeasternmost rock (night), in addition to randomly chosen fishing spots |
 | Hidden | ![weepinbell](assets/images/icons/weepinbell.png) ![tangela](assets/images/icons/tangela.png) ![furret](assets/images/icons/furret.png) | |
 
 ## Route 120
@@ -280,7 +281,7 @@ This details, for the most part, the encounter tables for every map in the game.
 | Land | ![wynaut](assets/images/icons/wynaut.png) | |
 | Water | ![tentacool](assets/images/icons/tentacool.png) ![wingull](assets/images/icons/wingull.png) ![pelipper](assets/images/icons/pelipper.png) | |
 | Fishing | ![magikarp](assets/images/icons/magikarp.png) ![tentacool](assets/images/icons/tentacool.png) ![wailmer](assets/images/icons/wailmer.png) ![horsea](assets/images/icons/horsea.png) ![seadra](assets/images/icons/seadra.png) | |
-| Hidden | ![treecko](assets/images/icons/treecko.png) ![torchic](assets/images/icons/torchic.png) ![mudkip](assets/images/icons/mudkip.png) | |
+| Hidden | ![treecko](assets/images/icons/treecko.png) ![torchic](assets/images/icons/torchic.png) ![mudkip](assets/images/icons/mudkip.png) | On (classic) Mirage Island |
 
 ## Underwater Route 130
 
