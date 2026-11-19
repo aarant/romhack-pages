@@ -94,7 +94,7 @@ Subject to change!
 | ![](assets/images/items/rare_bone.png) Rare Bone              |  | Secret Pals Treasure  (15%) |  |
 | ![](assets/images/items/oval_stone.png) Oval Stone             |  | Mirage Mountains | Happiny |
 | ![](assets/images/items/razor_claw.png) Razor Claw             |  | Zangoose, Mirage Forests | Frontier Exchange |
-| ![](assets/images/items/razor_fang.png) Razor Fang             |  | Zubat, Seviper, Mirage Forests | Frontier Exchange |
+| ![](assets/images/items/razor_fang.png) Razor Fang             | Meteor Falls (1) | Zubat, Seviper, Mirage Forests | Frontier Exchange |
 | ![](assets/images/items/orange_mail.png) Orange Mail            | Trick House 1  (1) | Petalburg Mart |  |
 | ![](assets/images/items/harbor_mail.png) Harbor Mail            | Starting mailbox  (1), Trick House 2  (1), Abandoned Ship  (1) | Slateport Mart |  |
 | ![](assets/images/items/glitter_mail.png) Glitter Mail           | Trick House 6  (1) |  | Battle Frontier Mart |
@@ -170,7 +170,7 @@ Subject to change!
 | ![](assets/images/items/scope_lens.png) Scope Lens             |  | Slateport Battle Tent  (1/8) | Frontier Exchange |
 | ![](assets/images/items/metal_coat.png) Metal Coat             |  | Magnemite, Magneton | Frontier Exchange |
 | ![](assets/images/items/leftovers.png) Leftovers              | S.S. Tidal  (1) | Secret Base trash cans | Frontier Exchange, Battle Palace/Arena |
-| ![](assets/images/items/dragon_scale.png) Dragon Scale           |  | Horsea, Bagon, Mirage Mountains | Frontier Exchange |
+| ![](assets/images/items/dragon_scale.png) Dragon Scale           | Sky Pillar (1) | Horsea, Bagon, Mirage Mountains | Frontier Exchange |
 | ![](assets/images/items/light_ball.png) Light Ball             | Route 120  (1) | Pikachu |  |
 | ![](assets/images/items/soft_sand.png) Soft Sand              | Route 109  (1) | Trapinch, Nincada, Rock Smash |  |
 | ![](assets/images/items/hard_stone.png) Hard Stone             | Trick House 3  (1) | Aron, Rock Smash, Route 114 |  |

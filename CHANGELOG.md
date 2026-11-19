@@ -10,6 +10,26 @@ layout: default
 
 This document serves to record changes made between releases, newest version first.
 
+## v1.0.3
+
+- Reworked trainer teams up to Rustboro Gym (102, 104, Petalburg Woods)
+- Fix substitute gfx when player has no pokemon
+- Halve NPC IVs on Easy difficulty
+- Cancelling a DexNav search now decreases the current chain by 1
+- Fixed trainer position in Victory Road
+- Fixed flag ordering for Mt. Pyre summit's old man
+- Fixed some wrong warps/oopses in Space Center cutscenes
+- Fixed tile/elevation oopses in Aqua Hideout, Sky Pillar, Granite Cave
+- Fixed Secret Base trainer class rendering the wrong gender
+- Make PP of held mon in the PC appear full
+- Fixed Alolan Raichu & Raichu not having Surf in their learnset
+- Fixed post-contest cutscene trigger for Lisia & Wallace
+- Improved availability of Razor Fang and Dragon Scale
+- Expanded Lavaridge Mart item selection slightly
+- Fixed inaccessible item inside Abandoned Ship
+- Match Call can now be accessed with 1 badge as intended
+- Fixed Sap Sipper not blocking Bullet Seed
+
 ## v1.0.2
 
 - Fixed bug with Revives in double battles
