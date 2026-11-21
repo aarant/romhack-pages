@@ -1,0 +1,77 @@
+{% comment %} 
+#####################
+##### Variables #####
+#####################
+{% endcomment %}
+{% if include.species %}
+    {% assign species_tmp = include.species %}
+{% else %}
+    {% assign species_tmp = "error" %}
+{% endif %}
+{% if include.species_name %}
+    {% assign species_name = include.species_name | split: ' ' %}
+{% else %}
+    {% assign species_name = "ERROR" %}
+{% endif %}
+{% if include.location %}
+    {% assign location_tmp = include.location %}
+{% else %}
+    {% assign location_tmp = "error" %}
+{% endif %}
+{% if include.level %}
+    {% assign level = include.level %}
+{% else %}
+    {% assign level = "ERROR" %}
+{% endif %}
+{% if include.rate %}
+    {% assign rate = include.rate %}
+{% else %}
+    {% assign rate = "ERROR" %}
+{% endif %}
+
+
+{% comment %} 
+#######################################
+##### Pokemon icon + species name #####
+#######################################
+{% endcomment %}
+
+{% capture species_name_final %}
+    {% for word in species_name %}
+        {{ word | capitalize }}
+    {% endfor %}
+{% endcapture %}
+
+{% capture species_tmp2 %}
+<div style="display: flex;"><img style="margin-top: -5px" alt="{{ species_tmp }}" src="assets/images/icons/mons/{{ species_tmp }}.png"> <span>{{ species_name_final }}</span></div>
+{% endcapture %}
+{% if species_tmp == "error" %}
+    {% assign species_final = "<div style="display: flex;"><img style="margin-top: -5px" alt='ERROR' src='assets/images/icons/error.png'> <span>ERROR</span></div>" %}
+{% else %}
+    {% assign species_final = species_tmp2 %}
+{% endif %}
+
+
+{% comment %} 
+#######################################
+##### Capture Location #####
+#######################################
+{% endcomment %}
+{% capture location %} {% include location_type.liquid location=location_tmp %} {% endcapture %}
+
+
+
+{% comment %} 
+#######################################
+##### Encounter table entry #####
+#######################################
+{% endcomment %}
+<tr>
+    <td>{% capture encounter_entry %} {{ species_final }} </td>
+    <td>{{ location }}</td>
+    <td>{{ level }}</td>
+    <td>{{ rate }}%</td>
+</tr>    
+{% endcapture %}
+
+{{ encounter_entry | strip_newlines }}
