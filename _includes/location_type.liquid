@@ -1,0 +1,23 @@
+{% if include.location == "grass" %}
+  {% assign loc = "<img style='margin-bottom: -2px' alt='Grass' src='assets/images/icons/encounters/grass.png'> <span>Grass</span>" %}
+{% endif %}
+{% if include.location == "surfing" %}
+  {% assign loc = "<img style='margin-bottom: -6px' alt='Surfing' src='assets/images/icons/encounters/surfing.png'> <span>Surfing</span>" %}
+{% endif %}
+{% if include.location == "old_rod" %}
+  {% assign loc = "<img style='margin-bottom: -5px' alt='Old Rod' src='assets/images/icons/encounters/old_rod.png'> <span>Old Rod</span>" %}
+{% endif %}
+{% if include.location == "good_rod" %}
+  {% assign loc = "<img style='margin-bottom: -5px' alt='Good Rod' src='assets/images/icons/encounters/good_rod.png'> <span>Good Rod</span>" %}
+{% endif %}
+{% if include.location == "super_rod" %}
+  {% assign loc = "<img style='margin-bottom: -5px' alt='Super Rod' src='assets/images/icons/encounters/super_rod.png'> <span>Super Rod</span>" %}
+{% endif %}
+{% if include.location == "hidden" %}
+  {% assign loc = "<img style='margin-bottom: -5px' alt='Hidden' src='assets/images/icons/encounters/question_mark.png'> <span>Hidden</span>" %}
+{% endif %}
+{% if include.location == "rock_smash" %}
+  {% assign loc = "<img style='margin-bottom: -3px' alt='Rock Smash' src='assets/images/icons/encounters/rock_smash.png'> <span>Rock Smash</span>" %}
+{% endif %}
+
+{{ loc }}
