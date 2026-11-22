@@ -481,4 +481,4 @@ Subject to change!
 | ![](assets/images/items/tm.png) TM108 Hurricane        | Lilycove Department Store  (1) |  |  |
 | ![](assets/images/items/tm.png) TM109 Body Press       | Trainer Hill Expert mode  (1) |  |  |
 | ![](assets/images/items/tm.png) TM110 Ally Switch      | Trainer Hill Variety mode  (1) |  |  |
-| ![](assets/images/items/machro_bike.png) Machro Bike            |  |  | Speak to 3 new trainers about bikes |
+| ![](assets/images/items/machro_bike.png) Machro Bike            |  |  | Speak to 3 new trainers on Routes 111, 115, and 119 about bikes. Then speak to Rydel. |
