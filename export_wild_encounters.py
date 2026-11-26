@@ -165,6 +165,34 @@ def sort_table_rows(row1, row2):
             else:
                 return 1
 
+# key by location, rate, then name
+def key_table_rows(row):
+    parts = []
+    loc = re.split('"', ((re.split('"location=', row)[0])))[5]
+
+    match loc:
+        case "grass":
+            row_score = 0
+        case "surfing":
+            row_score = 1
+        case "rock_smash":
+            row_score = 2
+        case "old_rod":
+            row_score = 3
+        case "good_rod":
+            row_score = 4
+        case "super_rod":
+            row_score = 5
+        case "hidden":
+            row_score = 6
+    parts.append(row_score)
+    rate = int(re.split('"', ((re.split('"rate=', row)[0])))[9])
+    parts.append(rate)
+    species_name = re.split('"', ((re.split('"species_name=', row)[0])))[3]
+    parts.append(species_name)
+
+    return tuple(parts)
+
 def create_table_rows(doc,type):
     encounters = dict()
     for i,mon in enumerate(eval("doc." + type)):
@@ -243,7 +271,7 @@ def get_map_table(doc):
     lines = []
     map_name = normalize_map_name(doc.name)
     lines.append(f'{{% include encounter_table_header.liquid map="{map_name}" %}}')
-    for type in ["land_mons","water_mons","rock_smash_mons","hidden_mons","fishing_mons"]:
+    for type in ["land_mons","water_mons","rock_smash_mons","fishing_mons", "hidden_mons"]:
         rows = create_table_rows(doc,type)
         for row in rows:
             if row is not None:

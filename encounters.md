@@ -25,15 +25,15 @@ layout: default
 {% include encounter_entry.liquid species="marill" species_name="marill" location="surfing" level="20-35" rate="95" %}
 {% include encounter_entry.liquid species="surskit" species_name="surskit" location="surfing" level="20-30" rate="4" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="surfing" level="20-30" rate="1" %}
-{% include encounter_entry.liquid species="zigzagoon_galarian" species_name="galarian zigzagoon" location="hidden" level="3" rate="60" %}
-{% include encounter_entry.liquid species="poliwag" species_name="poliwag" location="hidden" level="3" rate="30" %}
-{% include encounter_entry.liquid species="smoochum" species_name="smoochum" location="hidden" level="3" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="corphish" species_name="corphish" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="corphish" species_name="corphish" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="zigzagoon_galarian" species_name="galarian zigzagoon" location="hidden" level="3" rate="60" %}
+{% include encounter_entry.liquid species="poliwag" species_name="poliwag" location="hidden" level="3" rate="30" %}
+{% include encounter_entry.liquid species="smoochum" species_name="smoochum" location="hidden" level="3" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 103" %}
@@ -44,9 +44,6 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="nidoran_f" species_name="Nidoran♀" location="hidden" level="3" rate="60" %}
-{% include encounter_entry.liquid species="spearow" species_name="spearow" location="hidden" level="3" rate="30" %}
-{% include encounter_entry.liquid species="zigzagoon_galarian" species_name="galarian zigzagoon" location="hidden" level="3" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -54,6 +51,9 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="25-45" rate="60" %}
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
+{% include encounter_entry.liquid species="nidoran_f" species_name="Nidoran♀" location="hidden" level="3" rate="60" %}
+{% include encounter_entry.liquid species="spearow" species_name="spearow" location="hidden" level="3" rate="30" %}
+{% include encounter_entry.liquid species="zigzagoon_galarian" species_name="galarian zigzagoon" location="hidden" level="3" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 104" %}
@@ -66,57 +66,57 @@ layout: default
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="grass" level="3-5" rate="10" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="95" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="spearow" species_name="spearow" location="hidden" level="7" rate="60" %}
-{% include encounter_entry.liquid species="pidgey" species_name="pidgey" location="hidden" level="7" rate="30" %}
-{% include encounter_entry.liquid species="weedle" species_name="weedle" location="hidden" level="7" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="100" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="100" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="spearow" species_name="spearow" location="hidden" level="7" rate="60" %}
+{% include encounter_entry.liquid species="pidgey" species_name="pidgey" location="hidden" level="7" rate="30" %}
+{% include encounter_entry.liquid species="weedle" species_name="weedle" location="hidden" level="7" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 105" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 106" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 107" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 108" %}
@@ -124,30 +124,30 @@ layout: default
 {% include encounter_entry.liquid species="grimer_alolan" species_name="alolan grimer" location="surfing" level="10-30" rate="30" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="15-25" rate="5" %}
-{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 109" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 110" %}
@@ -161,15 +161,15 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="nidoran_m" species_name="Nidoran♂" location="hidden" level="13" rate="60" %}
-{% include encounter_entry.liquid species="venonat" species_name="venonat" location="hidden" level="13" rate="30" %}
-{% include encounter_entry.liquid species="murkrow" species_name="murkrow" location="hidden" level="13" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="nidoran_m" species_name="Nidoran♂" location="hidden" level="13" rate="60" %}
+{% include encounter_entry.liquid species="venonat" species_name="venonat" location="hidden" level="13" rate="30" %}
+{% include encounter_entry.liquid species="murkrow" species_name="murkrow" location="hidden" level="13" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 111" %}
@@ -183,15 +183,15 @@ layout: default
 {% include encounter_entry.liquid species="surskit" species_name="surskit" location="surfing" level="20" rate="5" %}
 {% include encounter_entry.liquid species="masquerain" species_name="masquerain" location="surfing" level="25" rate="4" %}
 {% include encounter_entry.liquid species="geodude" species_name="geodude" location="rock_smash" level="10-20" rate="100" %}
-{% include encounter_entry.liquid species="cubone" species_name="cubone" location="hidden" level="23" rate="60" %}
-{% include encounter_entry.liquid species="diglett" species_name="diglett" location="hidden" level="23" rate="30" %}
-{% include encounter_entry.liquid species="rhyhorn" species_name="rhyhorn" location="hidden" level="23" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="cubone" species_name="cubone" location="hidden" level="23" rate="60" %}
+{% include encounter_entry.liquid species="diglett" species_name="diglett" location="hidden" level="23" rate="30" %}
+{% include encounter_entry.liquid species="rhyhorn" species_name="rhyhorn" location="hidden" level="23" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 112" %}
@@ -226,15 +226,15 @@ layout: default
 {% include encounter_entry.liquid species="surskit" species_name="surskit" location="surfing" level="20-30" rate="4" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="surfing" level="20-30" rate="1" %}
 {% include encounter_entry.liquid species="geodude" species_name="geodude" location="rock_smash" level="10-20" rate="100" %}
-{% include encounter_entry.liquid species="misdreavus" species_name="misdreavus" location="hidden" level="19" rate="60" %}
-{% include encounter_entry.liquid species="poliwag" species_name="poliwag" location="hidden" level="19" rate="30" %}
-{% include encounter_entry.liquid species="pinsir" species_name="pinsir" location="hidden" level="19" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="misdreavus" species_name="misdreavus" location="hidden" level="19" rate="60" %}
+{% include encounter_entry.liquid species="poliwag" species_name="poliwag" location="hidden" level="19" rate="30" %}
+{% include encounter_entry.liquid species="pinsir" species_name="pinsir" location="hidden" level="19" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 115" %}
@@ -245,15 +245,15 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="ekans" species_name="ekans" location="hidden" level="20" rate="60" %}
-{% include encounter_entry.liquid species="misdreavus" species_name="misdreavus" location="hidden" level="20" rate="30" %}
-{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="20" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="ekans" species_name="ekans" location="hidden" level="20" rate="60" %}
+{% include encounter_entry.liquid species="misdreavus" species_name="misdreavus" location="hidden" level="20" rate="30" %}
+{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="20" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 116" %}
@@ -280,9 +280,6 @@ layout: default
 {% include encounter_entry.liquid species="marill" species_name="marill" location="surfing" level="10-35" rate="95" %}
 {% include encounter_entry.liquid species="surskit" species_name="surskit" location="surfing" level="20-30" rate="4" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="surfing" level="20-30" rate="1" %}
-{% include encounter_entry.liquid species="rattata" species_name="rattata" location="hidden" level="14" rate="60" %}
-{% include encounter_entry.liquid species="poliwag" species_name="poliwag" location="hidden" level="14" rate="30" %}
-{% include encounter_entry.liquid species="tauros" species_name="tauros" location="hidden" level="14" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -290,6 +287,9 @@ layout: default
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="corphish" species_name="corphish" location="super_rod" level="20-35" rate="95" %}
 {% include encounter_entry.liquid species="crawdaunt" species_name="crawdaunt" location="super_rod" level="40" rate="5" %}
+{% include encounter_entry.liquid species="rattata" species_name="rattata" location="hidden" level="14" rate="60" %}
+{% include encounter_entry.liquid species="poliwag" species_name="poliwag" location="hidden" level="14" rate="30" %}
+{% include encounter_entry.liquid species="tauros" species_name="tauros" location="hidden" level="14" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 118" %}
@@ -302,9 +302,6 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="raticate" species_name="raticate" location="hidden" level="24" rate="60" %}
-{% include encounter_entry.liquid species="aipom" species_name="aipom" location="hidden" level="24" rate="30" %}
-{% include encounter_entry.liquid species="electabuzz" species_name="electabuzz" location="hidden" level="24" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -312,6 +309,9 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="carvanha" species_name="carvanha" location="super_rod" level="20-45" rate="60" %}
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
+{% include encounter_entry.liquid species="raticate" species_name="raticate" location="hidden" level="24" rate="60" %}
+{% include encounter_entry.liquid species="aipom" species_name="aipom" location="hidden" level="24" rate="30" %}
+{% include encounter_entry.liquid species="electabuzz" species_name="electabuzz" location="hidden" level="24" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 119" %}
@@ -326,16 +326,19 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="weepinbell" species_name="weepinbell" location="hidden" level="24" rate="60" %}
-{% include encounter_entry.liquid species="tangela" species_name="tangela" location="hidden" level="24" rate="30" %}
-{% include encounter_entry.liquid species="furret" species_name="furret" location="hidden" level="24" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="carvanha" species_name="carvanha" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="carvanha" species_name="carvanha" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="weepinbell" species_name="weepinbell" location="hidden" level="24" rate="60" %}
+{% include encounter_entry.liquid species="tangela" species_name="tangela" location="hidden" level="24" rate="30" %}
+{% include encounter_entry.liquid species="furret" species_name="furret" location="hidden" level="24" rate="10" %}
 {% include encounter_table_footer.liquid %}
+
+> Note: Feebas can be found using any Rod, either on its usual random tiles, under the northernmost bridge during the day,
+> or around the southeasternmost rock at night.
 
 {% include encounter_table_header.liquid map="Route 120" %}
 {% include encounter_entry.liquid species="yanma" species_name="yanma" location="grass" level="25-26" rate="25" %}
@@ -349,15 +352,15 @@ layout: default
 {% include encounter_entry.liquid species="marill" species_name="marill" location="surfing" level="20-35" rate="69" %}
 {% include encounter_entry.liquid species="yanma" species_name="yanma" location="surfing" level="20-30" rate="30" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="surfing" level="20-30" rate="1" %}
-{% include encounter_entry.liquid species="kecleon" species_name="kecleon" location="hidden" level="30" rate="60" %}
-{% include encounter_entry.liquid species="slowpoke" species_name="slowpoke" location="hidden" level="30" rate="30" %}
-{% include encounter_entry.liquid species="farfetchd" species_name="farfetchd" location="hidden" level="30" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="kecleon" species_name="kecleon" location="hidden" level="30" rate="60" %}
+{% include encounter_entry.liquid species="slowpoke" species_name="slowpoke" location="hidden" level="30" rate="30" %}
+{% include encounter_entry.liquid species="farfetchd" species_name="farfetchd" location="hidden" level="30" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 121" %}
@@ -371,15 +374,15 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="hypno" species_name="hypno" location="hidden" level="30" rate="60" %}
-{% include encounter_entry.liquid species="lickitung" species_name="lickitung" location="hidden" level="30" rate="30" %}
-{% include encounter_entry.liquid species="exeggcute" species_name="exeggcute" location="hidden" level="30" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="hypno" species_name="hypno" location="hidden" level="30" rate="60" %}
+{% include encounter_entry.liquid species="lickitung" species_name="lickitung" location="hidden" level="30" rate="30" %}
+{% include encounter_entry.liquid species="exeggcute" species_name="exeggcute" location="hidden" level="30" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 122" %}
@@ -387,9 +390,6 @@ layout: default
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="30" %}
 {% include encounter_entry.liquid species="corsola_galarian" species_name="galarian corsola" location="surfing" level="15-25" rate="9" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="1" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -398,6 +398,9 @@ layout: default
 {% include encounter_entry.liquid species="corsola_galarian" species_name="galarian corsola" location="super_rod" level="25-30" rate="40" %}
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="25-45" rate="20" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 123" %}
@@ -439,9 +442,6 @@ layout: default
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="30" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
 {% include encounter_entry.liquid species="staryu" species_name="staryu" location="surfing" level="15-25" rate="5" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -449,6 +449,9 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="25-45" rate="60" %}
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Underwater Route 124" %}
@@ -462,9 +465,6 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="seel" species_name="seel" location="hidden" level="30" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="30" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="30" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -472,6 +472,9 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="25-45" rate="60" %}
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
+{% include encounter_entry.liquid species="seel" species_name="seel" location="hidden" level="30" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="30" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="30" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Underwater Route 126" %}
@@ -485,9 +488,6 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -495,15 +495,15 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="25-45" rate="60" %}
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 127" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -511,15 +511,15 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="25-45" rate="60" %}
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 128" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -528,6 +528,9 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="30-45" rate="45" %}
 {% include encounter_entry.liquid species="luvdisc" species_name="luvdisc" location="super_rod" level="30-35" rate="40" %}
 {% include encounter_entry.liquid species="corsola" species_name="corsola" location="super_rod" level="30-35" rate="15" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 129" %}
@@ -535,9 +538,6 @@ layout: default
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="4" %}
 {% include encounter_entry.liquid species="wailord" species_name="wailord" location="surfing" level="25-30" rate="1" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -545,6 +545,9 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="25-45" rate="60" %}
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 130" %}
@@ -552,9 +555,6 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="treecko" species_name="treecko" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="torchic" species_name="torchic" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="mudkip" species_name="mudkip" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -563,6 +563,9 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="25-45" rate="56" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="super_rod" level="30-35" rate="40" %}
 {% include encounter_entry.liquid species="seadra" species_name="seadra" location="super_rod" level="35-40" rate="4" %}
+{% include encounter_entry.liquid species="treecko" species_name="treecko" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="torchic" species_name="torchic" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="mudkip" species_name="mudkip" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Underwater Route 130" %}
@@ -576,9 +579,6 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -587,15 +587,15 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="25-45" rate="56" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="super_rod" level="30-35" rate="40" %}
 {% include encounter_entry.liquid species="seadra" species_name="seadra" location="super_rod" level="35-40" rate="4" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 132" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -605,15 +605,15 @@ layout: default
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="super_rod" level="25-30" rate="15" %}
 {% include encounter_entry.liquid species="seadra" species_name="seadra" location="super_rod" level="35-40" rate="4" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 133" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -623,15 +623,15 @@ layout: default
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="super_rod" level="25-30" rate="15" %}
 {% include encounter_entry.liquid species="seadra" species_name="seadra" location="super_rod" level="35-40" rate="4" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Route 134" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -641,6 +641,9 @@ layout: default
 {% include encounter_entry.liquid species="sharpedo" species_name="sharpedo" location="super_rod" level="30-35" rate="40" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="super_rod" level="25-30" rate="15" %}
 {% include encounter_entry.liquid species="seadra" species_name="seadra" location="super_rod" level="35-40" rate="4" %}
+{% include encounter_entry.liquid species="shellder" species_name="shellder" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="poliwhirl" species_name="poliwhirl" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="lapras" species_name="lapras" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Abandoned Ship Hidden Floor Corridors" %}
@@ -753,9 +756,6 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="wingull" species_name="wingull" location="surfing" level="10-30" rate="35" %}
 {% include encounter_entry.liquid species="pelipper" species_name="pelipper" location="surfing" level="25-30" rate="5" %}
-{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
-{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
-{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="corsola_galarian" species_name="galarian corsola" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
@@ -763,6 +763,9 @@ layout: default
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-40" rate="59" %}
 {% include encounter_entry.liquid species="clamperl" species_name="clamperl" location="super_rod" level="25-45" rate="41" %}
+{% include encounter_entry.liquid species="krabby" species_name="krabby" location="hidden" level="25" rate="60" %}
+{% include encounter_entry.liquid species="qwilfish" species_name="qwilfish" location="hidden" level="25" rate="30" %}
+{% include encounter_entry.liquid species="mantyke" species_name="mantyke" location="hidden" level="25" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Dewford Town" %}
@@ -953,15 +956,15 @@ layout: default
 {% include encounter_entry.liquid species="zubat" species_name="zubat" location="surfing" level="30-35" rate="90" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="surfing" level="5-30" rate="5" %}
 {% include encounter_entry.liquid species="solrock" species_name="solrock" location="surfing" level="15-25" rate="5" %}
-{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="19" rate="60" %}
-{% include encounter_entry.liquid species="dratini" species_name="dratini" location="hidden" level="19" rate="30" %}
-{% include encounter_entry.liquid species="kangaskhan" species_name="kangaskhan" location="hidden" level="19" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="luvdisc" species_name="luvdisc" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="19" rate="60" %}
+{% include encounter_entry.liquid species="dratini" species_name="dratini" location="hidden" level="19" rate="30" %}
+{% include encounter_entry.liquid species="kangaskhan" species_name="kangaskhan" location="hidden" level="19" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Meteor Falls 1F 2R" %}
@@ -970,9 +973,6 @@ layout: default
 {% include encounter_entry.liquid species="lunatone" species_name="lunatone" location="grass" level="33-39" rate="15" %}
 {% include encounter_entry.liquid species="golbat" species_name="golbat" location="surfing" level="30-35" rate="90" %}
 {% include encounter_entry.liquid species="solrock" species_name="solrock" location="surfing" level="15-35" rate="10" %}
-{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="19" rate="60" %}
-{% include encounter_entry.liquid species="dratini" species_name="dratini" location="hidden" level="19" rate="30" %}
-{% include encounter_entry.liquid species="kangaskhan" species_name="kangaskhan" location="hidden" level="19" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="good_rod" level="10-30" rate="60" %}
@@ -980,6 +980,9 @@ layout: default
 {% include encounter_entry.liquid species="luvdisc" species_name="luvdisc" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="super_rod" level="25-35" rate="80" %}
 {% include encounter_entry.liquid species="whiscash" species_name="whiscash" location="super_rod" level="30-45" rate="20" %}
+{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="19" rate="60" %}
+{% include encounter_entry.liquid species="dratini" species_name="dratini" location="hidden" level="19" rate="30" %}
+{% include encounter_entry.liquid species="kangaskhan" species_name="kangaskhan" location="hidden" level="19" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Meteor Falls B1F 1R" %}
@@ -989,9 +992,6 @@ layout: default
 {% include encounter_entry.liquid species="golbat" species_name="golbat" location="surfing" level="30-35" rate="90" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="surfing" level="25-30" rate="5" %}
 {% include encounter_entry.liquid species="solrock" species_name="solrock" location="surfing" level="15-25" rate="5" %}
-{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="19" rate="60" %}
-{% include encounter_entry.liquid species="dratini" species_name="dratini" location="hidden" level="19" rate="30" %}
-{% include encounter_entry.liquid species="kangaskhan" species_name="kangaskhan" location="hidden" level="19" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="good_rod" level="10-30" rate="60" %}
@@ -999,6 +999,9 @@ layout: default
 {% include encounter_entry.liquid species="luvdisc" species_name="luvdisc" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="super_rod" level="25-35" rate="80" %}
 {% include encounter_entry.liquid species="whiscash" species_name="whiscash" location="super_rod" level="30-45" rate="20" %}
+{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="19" rate="60" %}
+{% include encounter_entry.liquid species="dratini" species_name="dratini" location="hidden" level="19" rate="30" %}
+{% include encounter_entry.liquid species="kangaskhan" species_name="kangaskhan" location="hidden" level="19" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Meteor Falls B1F 2R" %}
@@ -1009,9 +1012,6 @@ layout: default
 {% include encounter_entry.liquid species="golbat" species_name="golbat" location="surfing" level="30-35" rate="60" %}
 {% include encounter_entry.liquid species="seadra" species_name="seadra" location="surfing" level="32-35" rate="30" %}
 {% include encounter_entry.liquid species="solrock" species_name="solrock" location="surfing" level="15-35" rate="10" %}
-{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="19" rate="60" %}
-{% include encounter_entry.liquid species="dratini" species_name="dratini" location="hidden" level="19" rate="30" %}
-{% include encounter_entry.liquid species="kangaskhan" species_name="kangaskhan" location="hidden" level="19" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="horsea" species_name="horsea" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="goldeen" species_name="goldeen" location="good_rod" level="10-30" rate="60" %}
@@ -1020,6 +1020,9 @@ layout: default
 {% include encounter_entry.liquid species="barboach" species_name="barboach" location="super_rod" level="25-30" rate="40" %}
 {% include encounter_entry.liquid species="seadra" species_name="seadra" location="super_rod" level="32-35" rate="40" %}
 {% include encounter_entry.liquid species="whiscash" species_name="whiscash" location="super_rod" level="30-45" rate="20" %}
+{% include encounter_entry.liquid species="clefairy" species_name="clefairy" location="hidden" level="19" rate="60" %}
+{% include encounter_entry.liquid species="dratini" species_name="dratini" location="hidden" level="19" rate="30" %}
+{% include encounter_entry.liquid species="kangaskhan" species_name="kangaskhan" location="hidden" level="19" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Meteor Falls Stevens Cave" %}
@@ -1317,15 +1320,15 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="zubat" species_name="zubat" location="surfing" level="5-35" rate="30" %}
 {% include encounter_entry.liquid species="spheal" species_name="spheal" location="surfing" level="25-35" rate="10" %}
-{% include encounter_entry.liquid species="dewgong" species_name="dewgong" location="hidden" level="34" rate="60" %}
-{% include encounter_entry.liquid species="delibird" species_name="delibird" location="hidden" level="34" rate="30" %}
-{% include encounter_entry.liquid species="piloswine" species_name="piloswine" location="hidden" level="34" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="dewgong" species_name="dewgong" location="hidden" level="34" rate="60" %}
+{% include encounter_entry.liquid species="delibird" species_name="delibird" location="hidden" level="34" rate="30" %}
+{% include encounter_entry.liquid species="piloswine" species_name="piloswine" location="hidden" level="34" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Shoal Cave Low Tide Ice Room" %}
@@ -1342,15 +1345,15 @@ layout: default
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="surfing" level="5-35" rate="60" %}
 {% include encounter_entry.liquid species="zubat" species_name="zubat" location="surfing" level="5-35" rate="30" %}
 {% include encounter_entry.liquid species="spheal" species_name="spheal" location="surfing" level="25-35" rate="10" %}
-{% include encounter_entry.liquid species="dewgong" species_name="dewgong" location="hidden" level="34" rate="60" %}
-{% include encounter_entry.liquid species="delibird" species_name="delibird" location="hidden" level="34" rate="30" %}
-{% include encounter_entry.liquid species="piloswine" species_name="piloswine" location="hidden" level="34" rate="10" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="old_rod" level="5-10" rate="70" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="old_rod" level="5-10" rate="30" %}
 {% include encounter_entry.liquid species="magikarp" species_name="magikarp" location="good_rod" level="10-30" rate="60" %}
 {% include encounter_entry.liquid species="tentacool" species_name="tentacool" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="good_rod" level="10-30" rate="20" %}
 {% include encounter_entry.liquid species="wailmer" species_name="wailmer" location="super_rod" level="20-45" rate="100" %}
+{% include encounter_entry.liquid species="dewgong" species_name="dewgong" location="hidden" level="34" rate="60" %}
+{% include encounter_entry.liquid species="delibird" species_name="delibird" location="hidden" level="34" rate="30" %}
+{% include encounter_entry.liquid species="piloswine" species_name="piloswine" location="hidden" level="34" rate="10" %}
 {% include encounter_table_footer.liquid %}
 
 {% include encounter_table_header.liquid map="Shoal Cave Low Tide Lower Room" %}
@@ -1508,4 +1511,3 @@ layout: default
 {% include encounter_entry.liquid species="larvitar" species_name="larvitar" location="grass" level="23-24" rate="4" %}
 {% include encounter_entry.liquid species="bagon" species_name="bagon" location="grass" level="23-24" rate="2" %}
 {% include encounter_table_footer.liquid %}
-
