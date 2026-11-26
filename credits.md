@@ -97,3 +97,18 @@ Everything else is by yours truly!
 - [Bulbapedia](https://bulbapedia.bulbagarden.net), for research
 - [pret](https://github.com/pret/pokeemerald), for the decomp base that made this all possible
 - [RHH](https://github.com/rh-hideout/pokeemerald-expansion), for `pokeemerald-expansion`
+
+### Playtesters
+
+Thanks so much for being my guinea pigs on this project and providing valuable feedback, before and after the initial release!
+
+- AGGStudios
+- aestellic
+- Astaroth
+- delta231
+- Jojo
+- kino
+- millionaire
+- mirigoround
+- Mr. Pig
+- SummerTimeAlice
