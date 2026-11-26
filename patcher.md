@@ -19,8 +19,6 @@ You will need a **clean** copy of an English base Pokémon Emerald ROM.
 
 I can't provide or tell you where to get this; sharing ROMs is **forbidden** and legally dubious.
 
-If you Google around though, you can easily find one, or dump your own Emerald cartridge if you have one.
-
 ## Instructions
 
 - Load your base Emerald ROM into the patcher and make sure it shows green.
