@@ -210,3 +210,15 @@ Yes, on Route 103 in the postgame.
 Wallace is the champion at first, but don't worry! You'll still battle Steven at some point.
 
 ---
+
+### Where can I find the shiny leaves?
+
+The location of each of the five shiny leaves (A-E) depends on your Pokémon's nature. See the below chart:
+
+| Natures                                                                          	| Leaf Locations                                                                                       	|
+|----------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------	|
+|    Hardy<br>Lonely<br>Brave<br>Adamant<br>Naughty<br>Bold<br>Docile<br>Relaxed   	| A: Routes 101 and 102<br>B: Route 110<br>C: Route 113<br>D: Route 116<br>E: Routes 119, 122, and 123 	|
+|      Impish<br>Lax<br>Timid<br>Hasty<br>Serious<br>Jolly<br>Naive<br>Modest      	| A: Routes 101 and 102<br>B: Route 111<br>C: Route 114<br>D: Route 117<br>E: Routes 120, 122, and 123 	|
+| Mild<br>Quiet<br>Bashful<br>Rash<br>Calm<br>Gentle<br>Sassy<br>Careful<br>Quirky 	| A: Routes 101 and 104<br>B: Route 112<br>C: Route 115<br>D: Route 118<br>E: Routes 121, 122, and 123 	|
+
+---
