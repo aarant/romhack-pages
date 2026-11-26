@@ -10,6 +10,32 @@ layout: default
 
 This document serves to record changes made between releases, newest version first.
 
+## v1.0.4
+
+- Added even more trainer class OW gfx, thanks to shikashipx
+- Allow resetting the clock in-game + time and day-of-week display
+- Updated Pokemon Center layout slightly
+- Allow flying to your Secret Base, if it is on a Route that can be flown to
+- Added some of ORAS' Eon Ticket text / interactions
+- Support shortened Wonder Codes
+- Reworked trainers up to Slateport
+- Added Day-Care Man to the PokeNav
+- Added short notification when picking up an item fills the last slot in the Bag
+
+- Fixed the Claw and Root Fossils being missable, if the Bag was full
+- Added a test/workaround for rare GBA SP hardware issue
+- Fixed level cap overflow issue for scaled trainer parties
+- Fixed hatched eggs not correctly inheriting Ability and Poke Ball
+- Fixed Battle Factory sometimes generating empty slots
+- Fixed Pokedex game freeze when button mode L=A
+- Fixed script error in Pacifidlog Town
+- Fixed graphical bug with the PokeNav's region map
+- Fixed trainer card badge rendering in Union Room
+- Fixed transparency in Golbat icon
+- Fixed Groudon Primal Reverting into Castform Sunny (lol)
+- Fixed a missing failsafe when getting the Red and Blue Orbs
+- Fixed some collision errors in Sky Pillar
+
 ## v1.0.3
 
 - Reworked trainer teams up to Rustboro Gym (102, 104, Petalburg Woods)
